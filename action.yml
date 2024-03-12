@@ -1,13 +1,12 @@
-name: 'The name of your action here'
+name: 'Rust Uptime Monitor'
 description: 'Provide a description here'
-author: 'Your name or organization here'
+author: 'theaddiction'
 
 # Define your inputs here.
 inputs:
-  milliseconds:
-    description: 'Your input description here'
+  rust_servers_token:
+    description: 'Api key for rust-servers.net'
     required: true
-    default: '1000'
 
 # Define your outputs here.
 outputs:
